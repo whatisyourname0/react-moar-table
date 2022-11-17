@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Test 1`] = `
+.c4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: #bdbdbd;
+  z-index: 1;
+  touch-action: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.c1 {
+  font-size: 16px;
+}
+
+.c0 {
+  margin: 16px;
+  font-size: 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.c0::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.c0::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgb(180,180,180);
+}
+
+.c0::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(150,150,150);
+}
+
+.c0::-webkit-scrollbar-thumb:active {
+  background-color: rgb(120,120,120);
+}
+
+.c0::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.c0 table {
+  border-spacing: 0;
+  text-align: center;
+  will-change: background-color;
+}
+
+.c0 table [data-sticky-td] {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  background-color: #fafafa;
+}
+
+.c0 table [data-sticky-last-left-td] {
+  box-shadow: 3px 3px 3px #939393;
+}
+
+.c0 table thead {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.c0 table thead th {
+  border-bottom: 1px solid black;
+  background-color: #f4f4f4;
+}
+
+.c0 table thead th:hover .c2 {
+  width: 7.5px;
+}
+
+.c0 table thead th:active .c2 {
+  width: 15px;
+  background-color: #8e8e8e;
+}
+
+.c0 table tbody {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.c0 table th,
+.c0 table td {
+  position: relative;
+  margin: 0;
+  padding: 10px 15px;
+  overflow: hidden;
+  background: #f9f9f9;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.c0 table th:nth-child(),.c0 table td:nth-child(),
+.c0 table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.c0 table th:nth-child() td,.c0 table td:nth-child() td,
+.c0 table tbody tr:hover td {
+  background-color: #f1f1f1;
+}
+
+.c0 table th:nth-child(),.c0 table td:nth-child() {
+  background-color: #e6f6ff !important;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <table
+      role="table"
+    >
+      <thead>
+        <tr
+          role="row"
+          style="display: flex; width: 150px;"
+        >
+          <th
+            colspan="1"
+            role="columnheader"
+            style="display: inline-block; box-sizing: border-box; width: 150px; position: relative; cursor: pointer;"
+            title="Toggle SortBy"
+          >
+            Run ID
+            <span
+              class="c1"
+            />
+            <div
+              class="c2 c3"
+              draggable="false"
+              role="separator"
+              style="cursor: col-resize;"
+            />
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        role="rowgroup"
+      >
+        <tr
+          role="row"
+          style="display: flex; width: 150px;"
+        >
+          <td
+            role="cell"
+            style="display: inline-block; box-sizing: border-box; width: 150px;"
+          >
+            <div
+              class="c4"
+            >
+              test1
+            </div>
+          </td>
+        </tr>
+        <tr
+          role="row"
+          style="display: flex; width: 150px;"
+        >
+          <td
+            role="cell"
+            style="display: inline-block; box-sizing: border-box; width: 150px;"
+          >
+            <div
+              class="c4"
+            >
+              test2
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
