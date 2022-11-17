@@ -1,7 +1,7 @@
 {
   "name": "react-moar-table",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "author": "whatisyourname0",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "jest --env=jsdom",
     "eject": "react-scripts eject",
-    "publish:npm": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/ -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
